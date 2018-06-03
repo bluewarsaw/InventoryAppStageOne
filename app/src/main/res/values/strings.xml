@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">InventoryApp StageOne</string>
+    <string name="add_product">Add New Product</string>
+    <string name="product_name">Name</string>
+    <string name="product_price">Price</string>
+    <string name="product_quantity">Quantity</string>
+    <string name="product_supplier_name">Supplier Name</string>
+    <string name="product_supplier_phone">Supplier Phone Number</string>
+    <string name="supplier_unknown">Unknown</string>
+    <string name="supplier_amazon">Amazon</string>
+    <string name="supplier_allegro">Allegro</string>
+    <string name="supplier_ebay">Ebay</string>
+    <string name="save">Save</string>
+    <string name="error">Error with saving product</string>
+    <string name="error_message">Error message</string>
+    <string name="success">Success</string>
+    <string name="product_save">Product saved with row number\t</string>
+    <string name="contains">Inventory contains: \t</string>
+    <string name="products_end"> \t products.\n</string>
+    <string name="open_app_activity">Open AddActivity</string>
+    <string name="message">Message</string>
+    <string name="no_row">No row on table</string>
+    <string name="type_here">Type here</string>
+
+</resources>

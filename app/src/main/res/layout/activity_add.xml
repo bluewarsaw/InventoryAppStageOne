@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/add_product"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/Main_Title" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_main"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/addStyle"
+            android:text="@string/product_name" />
+            <EditText
+                android:id="@+id/product_name_ET"
+                style="@style/formStyle"
+                android:hint="@string/type_here"
+                android:inputType="textCapWords" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_main"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/addStyle"
+            android:text="@string/product_price" />
+            <EditText
+                android:id="@+id/product_price_ET"
+                style="@style/formStyle"
+                android:hint="@string/type_here"
+                android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/addStyle"
+            android:text="@string/product_quantity" />
+            <EditText
+                android:id="@+id/product_quantity_ET"
+                style="@style/formStyle"
+                android:hint="@string/type_here"
+                android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/addStyle"
+            android:text="@string/product_supplier_name" />
+        <Spinner
+            android:id="@+id/product_supplier_ET"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:paddingRight="16dp"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/addStyle"
+            android:text="@string/product_supplier_phone" />
+            <EditText
+                android:id="@+id/product_supplier_phone_ET"
+                style="@style/formStyle"
+                android:hint="@string/type_here"
+                android:inputType="number" />
+    </LinearLayout>
+
+</LinearLayout>
